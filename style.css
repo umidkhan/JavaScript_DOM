@@ -1,8 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
 .navbar {
     margin-bottom: 20px;
 }
 
+span {
+    font-family: 'Source Code Pro', monospace;
+}
+
 .blue {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -15,6 +27,7 @@
 }
 
 .red {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -28,10 +41,11 @@
 }
 
 .indigo {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
+    padding-left: 15px;
     padding-right: 40px;
     background-color: indigo;
     border: none;
@@ -40,10 +54,11 @@
 }
 
 .yellow {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
+    padding-left: 15px;
     padding-right: 40px;
     background-color: yellow;
     border: none;
@@ -52,11 +67,12 @@
 }
 
 .grey {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
-    padding-right: 40px;
+    padding-right: 60px;
     background: rgb(136,135,152);
     background: linear-gradient(90deg, rgba(136,135,152,1) 0%, rgba(136,135,152,1) 0%);
     border: none;
@@ -65,11 +81,12 @@
 }
 
 .default {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 90px;
     background-color: white;
     border-color: rgba(0, 0, 0, 0.432);
     border-radius: 10px;
@@ -77,19 +94,20 @@
 }
 
 .other {
+    font-family: 'Source Code Pro', monospace;
     width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    padding-right: 40px;
+    padding-right: 90px;
     background-color: black;
-
     border-color: rgba(0, 0, 0, 0.432);
     border-radius: 10px;
     font-size: 20px;
 }
 
 .link {
+    font-family: 'Source Code Pro', monospace;
     text-decoration: none;
     color: white;
 }
